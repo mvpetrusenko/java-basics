@@ -115,8 +115,73 @@ public class Cycles {
         }
 
 
-        // use cycle while: commands should be executed several times
-        // use cycle while: you know how many times commands should be executed
+        // use cycle WHILE: commands should be executed several times
+        // use cycle FOR: you know how many times commands should be executed
+
+
+        //comment/uncomment Ctrl + /
+
+        // there will be: 0, 1 ... 13, 14
+
+        for (int i = 0; i < 15; i++)
+            System.out.println(i);
+
+
+        /* for (command1; comdition; command2)
+
+            {
+                block of the commands
+            {
+
+         */
+
+
+
+
+        /*  command1;
+            while (i < 15)
+            {
+
+                command2
+            {
+
+         */
+
+
+        /*  int i = 0;
+            while (comdition)
+            {
+                System.out.println(i);
+                i++;
+            {
+
+         */
+
+
+        //cycle do-while: cycle body will be executed again and again
+        //till condition = true
+
+        /*
+
+            do
+                command;
+            while (condition)
+
+         */
+
+
+        // in while cycle execution is like: condition, cycle body, condition, cycle body
+        // in do-while cycle: cycle body, condition, cycle body, condition
+        // in do-while cycle the body of the cycle will be executed at least once
+        // use cycle do-while when you do not need check the condition, till cycle body was not executed
+
+
+        // debugger: to run code line by line use F8 after you put a breakpoint (console tab to see output (text))
+        // for entering your methods use F7 instead, for all method to be executed step by step
+
+        // in main method you can call your functions from other methods: main2();
+        // to see the value of variables during debugging (debugger tab)
+        // if we press F8 while executing a cycle it will execute a cycle several times
 
 
 
